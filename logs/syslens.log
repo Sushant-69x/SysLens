@@ -1,0 +1,79 @@
+2026-05-26 01:03:37,073 | test | INFO | Logger working
+2026-05-26 01:08:55,274 | DBManager | INFO | Database schema initialized
+2026-05-26 01:13:37,381 | DBManager | INFO | Database schema initialized
+2026-05-26 01:13:38,396 | CPUCollector | INFO | CPU: 33.5% | Cores: 12
+2026-05-26 01:14:23,302 | DBManager | INFO | Database schema initialized
+2026-05-26 01:14:24,803 | MemoryCollector | INFO | RAM: 87.9% used | Swap: 7.9%
+2026-05-26 01:15:05,999 | DBManager | INFO | Database schema initialized
+2026-05-26 01:15:06,000 | DiskCollector | INFO | Disk C:\: 67.1% used
+2026-05-26 01:15:41,461 | DBManager | INFO | Database schema initialized
+2026-05-26 01:15:46,593 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 01:16:41,568 | DBManager | INFO | Database schema initialized
+2026-05-26 01:16:41,571 | NetworkCollector | INFO | Captured 177 network connections
+2026-05-26 01:18:55,543 | Main | INFO | SysLens starting...
+2026-05-26 01:18:55,548 | DBManager | INFO | Database schema initialized
+2026-05-26 01:18:55,572 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 01:18:56,575 | CPUCollector | INFO | CPU: 42.0% | Cores: 12
+2026-05-26 01:18:57,073 | MemoryCollector | INFO | RAM: 86.5% used | Swap: 7.4%
+2026-05-26 01:18:57,083 | DiskCollector | INFO | Disk C:\: 67.1% used
+2026-05-26 01:19:01,918 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 01:19:02,064 | NetworkCollector | INFO | Captured 179 network connections
+2026-05-26 01:19:03,252 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 01:19:03,257 | Scheduler | INFO | Scheduler started. Collecting every 30 seconds
+2026-05-26 01:19:03,257 | Main | INFO | SysLens running. Press Ctrl+C to stop.
+2026-05-26 01:19:33,256 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 01:19:34,263 | CPUCollector | INFO | CPU: 29.1% | Cores: 12
+2026-05-26 01:19:34,273 | MemoryCollector | INFO | RAM: 86.7% used | Swap: 7.4%
+2026-05-26 01:19:34,284 | DiskCollector | INFO | Disk C:\: 67.1% used
+2026-05-26 01:19:38,913 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 01:19:39,074 | NetworkCollector | INFO | Captured 176 network connections
+2026-05-26 01:19:40,283 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 01:20:03,268 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 01:20:04,275 | CPUCollector | INFO | CPU: 12.8% | Cores: 12
+2026-05-26 01:20:04,285 | MemoryCollector | INFO | RAM: 85.7% used | Swap: 7.4%
+2026-05-26 01:20:04,306 | DiskCollector | INFO | Disk C:\: 67.1% used
+2026-05-26 01:20:08,747 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 01:20:08,884 | NetworkCollector | INFO | Captured 166 network connections
+2026-05-26 01:20:09,938 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 01:20:33,257 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 01:20:34,264 | CPUCollector | INFO | CPU: 11.4% | Cores: 12
+2026-05-26 01:20:34,273 | MemoryCollector | INFO | RAM: 85.5% used | Swap: 7.4%
+2026-05-26 01:20:34,283 | DiskCollector | INFO | Disk C:\: 67.1% used
+2026-05-26 01:20:38,657 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 01:20:38,813 | NetworkCollector | INFO | Captured 171 network connections
+2026-05-26 01:20:39,886 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 01:20:54,404 | Main | INFO | Shutting down...
+2026-05-26 01:20:54,404 | Scheduler | INFO | Scheduler stopped
+2026-05-26 01:21:08,369 | DBManager | INFO | Database schema initialized
+2026-05-26 01:26:37,164 | Main | INFO | SysLens starting...
+2026-05-26 01:26:37,167 | DBManager | INFO | Database schema initialized
+2026-05-26 01:26:37,179 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 01:26:38,184 | CPUCollector | INFO | CPU: 26.8% | Cores: 12
+2026-05-26 01:26:38,694 | MemoryCollector | INFO | RAM: 84.6% used | Swap: 7.4%
+2026-05-26 01:26:38,706 | DiskCollector | INFO | Disk C:\: 67.1% used
+2026-05-26 01:26:43,161 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 01:26:43,324 | NetworkCollector | INFO | Captured 169 network connections
+2026-05-26 01:26:44,398 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 01:26:44,402 | Scheduler | INFO | Scheduler started. Collecting every 30 seconds
+2026-05-26 01:26:44,402 | Main | INFO | SysLens running. Press Ctrl+C to stop.
+2026-05-26 01:27:14,407 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 01:27:15,416 | CPUCollector | INFO | CPU: 8.2% | Cores: 12
+2026-05-26 01:27:15,430 | MemoryCollector | INFO | RAM: 83.7% used | Swap: 7.4%
+2026-05-26 01:27:15,441 | DiskCollector | INFO | Disk C:\: 67.1% used
+2026-05-26 01:27:19,755 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 01:27:19,898 | NetworkCollector | INFO | Captured 178 network connections
+2026-05-26 01:27:21,030 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 01:27:44,416 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 01:27:45,421 | CPUCollector | INFO | CPU: 13.0% | Cores: 12
+2026-05-26 01:27:45,432 | MemoryCollector | INFO | RAM: 84.2% used | Swap: 7.4%
+2026-05-26 01:27:45,446 | DiskCollector | INFO | Disk C:\: 67.1% used
+2026-05-26 01:27:49,683 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 01:27:49,848 | NetworkCollector | INFO | Captured 177 network connections
+2026-05-26 01:27:51,018 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 01:28:12,144 | Main | INFO | Shutting down...
+2026-05-26 01:28:12,145 | Scheduler | INFO | Scheduler stopped
+2026-05-26 01:29:53,613 | DBManager | INFO | Database schema initialized
+2026-05-26 01:29:53,621 | AlertEngine | WARNING | ALERT [WARNING] MEMORY_HIGH: Test alert - RAM at 84%
+2026-05-26 01:29:53,629 | AlertEngine | WARNING | ALERT [CRITICAL] CPU_HIGH: Test alert - CPU spike
+2026-05-26 01:35:52,872 | DBManager | INFO | Database schema initialized
+2026-05-26 01:43:26,297 | DBManager | INFO | Database schema initialized

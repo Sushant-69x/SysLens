@@ -1,0 +1,21 @@
+database:
+  path: "syslens.db"
+
+collection:
+  interval_seconds: 30
+
+thresholds:
+  cpu_percent: 90
+  memory_percent: 85
+  disk_percent: 85
+
+alerts:
+  brute_force_attempts: 5
+  brute_force_window_minutes: 10
+
+whitelist_ports:
+  - 22
+  - 80
+  - 443
+  - 3306
+  - 5432
