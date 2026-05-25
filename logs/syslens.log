@@ -258,3 +258,112 @@
 2026-05-26 03:03:38,318 | ProcessCollector | INFO | Captured 20 top processes
 2026-05-26 03:03:38,474 | NetworkCollector | INFO | Captured 159 network connections
 2026-05-26 03:03:39,588 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:04:01,880 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:04:02,889 | CPUCollector | INFO | CPU: 30.9% | Cores: 12
+2026-05-26 03:04:02,923 | MemoryCollector | INFO | RAM: 85.2% used | Swap: 11.0%
+2026-05-26 03:04:02,932 | DiskCollector | INFO | Disk C:\: 69.7% used
+2026-05-26 03:04:09,820 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:04:10,000 | NetworkCollector | INFO | Captured 185 network connections
+2026-05-26 03:04:11,344 | AlertEngine | WARNING | ALERT [WARNING] MEMORY_HIGH: RAM usage at 85.2% — exceeds 85% threshold
+2026-05-26 03:04:11,421 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:04:31,893 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:04:32,906 | CPUCollector | INFO | CPU: 39.7% | Cores: 12
+2026-05-26 03:04:32,942 | MemoryCollector | INFO | RAM: 87.3% used | Swap: 11.0%
+2026-05-26 03:04:32,949 | DiskCollector | INFO | Disk C:\: 69.7% used
+2026-05-26 03:04:38,112 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:04:38,264 | NetworkCollector | INFO | Captured 176 network connections
+2026-05-26 03:04:39,386 | AlertEngine | WARNING | ALERT [WARNING] MEMORY_HIGH: RAM usage at 87.3% — exceeds 85% threshold
+2026-05-26 03:04:39,395 | AlertEngine | WARNING | ALERT [WARNING] SUSPICIOUS_PORT: Unexpected listening port detected: 62198 (PID: 30472)
+2026-05-26 03:04:39,471 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:05:01,884 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:05:02,888 | CPUCollector | INFO | CPU: 32.5% | Cores: 12
+2026-05-26 03:05:02,896 | MemoryCollector | INFO | RAM: 86.8% used | Swap: 10.7%
+2026-05-26 03:05:02,906 | DiskCollector | INFO | Disk C:\: 69.7% used
+2026-05-26 03:05:08,970 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:05:09,130 | NetworkCollector | INFO | Captured 191 network connections
+2026-05-26 03:05:10,601 | AlertEngine | WARNING | ALERT [WARNING] MEMORY_HIGH: RAM usage at 86.8% — exceeds 85% threshold
+2026-05-26 03:05:10,617 | AlertEngine | WARNING | ALERT [WARNING] SUSPICIOUS_PORT: Unexpected listening port detected: 56466 (PID: 3184)
+2026-05-26 03:05:10,638 | AlertEngine | WARNING | ALERT [WARNING] SUSPICIOUS_PORT: Unexpected listening port detected: 60252 (PID: 23880)
+2026-05-26 03:05:10,649 | AlertEngine | WARNING | ALERT [WARNING] SUSPICIOUS_PORT: Unexpected listening port detected: 58868 (PID: 23880)
+2026-05-26 03:05:10,661 | AlertEngine | WARNING | ALERT [WARNING] SUSPICIOUS_PORT: Unexpected listening port detected: 60251 (PID: 23880)
+2026-05-26 03:05:10,674 | AlertEngine | WARNING | ALERT [WARNING] SUSPICIOUS_PORT: Unexpected listening port detected: 60259 (PID: 22148)
+2026-05-26 03:05:10,687 | AlertEngine | WARNING | ALERT [WARNING] SUSPICIOUS_PORT: Unexpected listening port detected: 58866 (PID: 5548)
+2026-05-26 03:05:10,696 | AlertEngine | WARNING | ALERT [WARNING] SUSPICIOUS_PORT: Unexpected listening port detected: 42050 (PID: 28484)
+2026-05-26 03:05:10,782 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:05:31,879 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:05:32,889 | CPUCollector | INFO | CPU: 38.9% | Cores: 12
+2026-05-26 03:05:32,897 | MemoryCollector | INFO | RAM: 87.6% used | Swap: 10.7%
+2026-05-26 03:05:32,906 | DiskCollector | INFO | Disk C:\: 69.7% used
+2026-05-26 03:05:39,256 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:05:39,430 | NetworkCollector | INFO | Captured 177 network connections
+2026-05-26 03:05:40,985 | AlertEngine | WARNING | ALERT [WARNING] MEMORY_HIGH: RAM usage at 87.6% — exceeds 85% threshold
+2026-05-26 03:05:41,084 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:06:01,892 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:06:02,899 | CPUCollector | INFO | CPU: 49.6% | Cores: 12
+2026-05-26 03:06:02,906 | MemoryCollector | INFO | RAM: 86.8% used | Swap: 10.7%
+2026-05-26 03:06:02,916 | DiskCollector | INFO | Disk C:\: 69.7% used
+2026-05-26 03:06:10,905 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:06:11,065 | NetworkCollector | INFO | Captured 162 network connections
+2026-05-26 03:06:12,394 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:06:31,892 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:06:32,895 | CPUCollector | INFO | CPU: 36.0% | Cores: 12
+2026-05-26 03:06:32,903 | MemoryCollector | INFO | RAM: 84.8% used | Swap: 12.5%
+2026-05-26 03:06:32,912 | DiskCollector | INFO | Disk C:\: 69.7% used
+2026-05-26 03:06:40,416 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:06:40,582 | NetworkCollector | INFO | Captured 161 network connections
+2026-05-26 03:06:41,956 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:07:01,893 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:07:02,900 | CPUCollector | INFO | CPU: 26.8% | Cores: 12
+2026-05-26 03:07:02,907 | MemoryCollector | INFO | RAM: 82.5% used | Swap: 12.5%
+2026-05-26 03:07:02,916 | DiskCollector | INFO | Disk C:\: 69.7% used
+2026-05-26 03:07:09,968 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:07:10,148 | NetworkCollector | INFO | Captured 163 network connections
+2026-05-26 03:07:11,619 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:07:31,884 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:07:32,901 | CPUCollector | INFO | CPU: 12.0% | Cores: 12
+2026-05-26 03:07:32,936 | MemoryCollector | INFO | RAM: 85.6% used | Swap: 12.1%
+2026-05-26 03:07:32,947 | DiskCollector | INFO | Disk C:\: 69.7% used
+2026-05-26 03:07:38,657 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:07:38,842 | NetworkCollector | INFO | Captured 160 network connections
+2026-05-26 03:07:40,052 | AlertEngine | WARNING | ALERT [WARNING] MEMORY_HIGH: RAM usage at 85.6% — exceeds 85% threshold
+2026-05-26 03:07:40,130 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:08:01,887 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:08:02,898 | CPUCollector | INFO | CPU: 27.8% | Cores: 12
+2026-05-26 03:08:02,914 | MemoryCollector | INFO | RAM: 83.4% used | Swap: 12.2%
+2026-05-26 03:08:02,923 | DiskCollector | INFO | Disk C:\: 67.9% used
+2026-05-26 03:08:10,333 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:08:10,541 | NetworkCollector | INFO | Captured 146 network connections
+2026-05-26 03:08:11,734 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:08:31,881 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:08:32,895 | CPUCollector | INFO | CPU: 50.1% | Cores: 12
+2026-05-26 03:08:32,902 | MemoryCollector | INFO | RAM: 83.3% used | Swap: 12.3%
+2026-05-26 03:08:32,912 | DiskCollector | INFO | Disk C:\: 67.9% used
+2026-05-26 03:08:39,860 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:08:40,036 | NetworkCollector | INFO | Captured 148 network connections
+2026-05-26 03:08:41,226 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:09:01,884 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:09:02,889 | CPUCollector | INFO | CPU: 31.0% | Cores: 12
+2026-05-26 03:09:02,903 | MemoryCollector | INFO | RAM: 83.5% used | Swap: 11.3%
+2026-05-26 03:09:02,913 | DiskCollector | INFO | Disk C:\: 67.8% used
+2026-05-26 03:09:10,391 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:09:10,576 | NetworkCollector | INFO | Captured 147 network connections
+2026-05-26 03:09:11,796 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:09:31,887 | Scheduler | INFO | --- Collection cycle started ---
+2026-05-26 03:09:32,902 | CPUCollector | INFO | CPU: 18.4% | Cores: 12
+2026-05-26 03:09:32,938 | MemoryCollector | INFO | RAM: 82.8% used | Swap: 11.4%
+2026-05-26 03:09:32,951 | DiskCollector | INFO | Disk C:\: 67.8% used
+2026-05-26 03:09:38,429 | ProcessCollector | INFO | Captured 20 top processes
+2026-05-26 03:09:38,577 | NetworkCollector | INFO | Captured 150 network connections
+2026-05-26 03:09:38,878 | Main | INFO | Shutting down...
+2026-05-26 03:09:39,601 | Scheduler | INFO | --- Collection cycle complete ---
+2026-05-26 03:09:39,601 | Scheduler | INFO | Scheduler stopped
+2026-05-26 03:14:36,257 | DBManager | INFO | Database schema initialized
+2026-05-26 03:14:36,258 | AuthLogCollector | WARNING | No auth log found. Using test_auth.log
+2026-05-26 03:14:36,258 | AuthLogCollector | WARNING | Log file not found: test_auth.log
+2026-05-26 03:15:29,826 | DBManager | INFO | Database schema initialized
+2026-05-26 03:15:29,827 | AuthLogCollector | INFO | Auth log found: test_auth.log
+2026-05-26 03:15:29,837 | AuthLogCollector | INFO | Parsed 12 auth events
+2026-05-26 03:16:32,242 | DBManager | INFO | Database schema initialized
+2026-05-26 03:16:32,250 | AlertEngine | WARNING | ALERT [CRITICAL] BRUTE_FORCE: Brute force detected from 192.168.1.100 — 6 failed logins in 10 minutes
+2026-05-26 03:16:32,251 | AlertEngine | WARNING | Brute force detected from 1 IPs
+2026-05-26 03:17:48,349 | DBManager | INFO | Database schema initialized

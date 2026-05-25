@@ -9,6 +9,8 @@ class AlertEngine:
         self.db = db_manager
         self.thresholds = config['thresholds']
         self.whitelist_ports = config['whitelist_ports']
+        self.brute_force_attempts = config['alerts']['brute_force_attempts']
+        self.brute_force_window = config['alerts']['brute_force_window_minutes']
 
     def check_cpu(self, cpu_data):
         if cpu_data['cpu_percent'] > self.thresholds['cpu_percent']:
@@ -71,8 +73,31 @@ class AlertEngine:
         except Exception as e:
             logger.error(f"Process check failed: {e}")
 
+    def check_brute_force(self):
+        query = '''
+            SELECT source_ip, COUNT(*) as attempts
+            FROM auth_events
+            WHERE event_type = "FAILED_LOGIN"
+            AND timestamp >= datetime("now", ? )
+            GROUP BY source_ip
+            HAVING COUNT(*) >= ?
+        '''
+        window = f"-{self.brute_force_window} minutes"
+        results = self.db.query(query, (window, self.brute_force_attempts))
+
+        for row in results:
+            self._create_alert(
+                alert_type='BRUTE_FORCE',
+                severity='CRITICAL',
+                description=f"Brute force detected from {row['source_ip']} — {row['attempts']} failed logins in {self.brute_force_window} minutes"
+            )
+
+        if results:
+            logger.warning(f"Brute force detected from {len(results)} IPs")
+
+        return results
+
     def _create_alert(self, alert_type, severity, description):
-        # Avoid duplicate alerts — check if same alert exists in last 5 minutes
         existing = self.db.query('''
             SELECT id FROM alerts
             WHERE alert_type = ?
@@ -98,3 +123,4 @@ class AlertEngine:
         self.check_disk(disk_data)
         self.check_ports()
         self.check_suspicious_processes()
+        self.check_brute_force()

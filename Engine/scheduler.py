@@ -5,6 +5,7 @@ from Collectors.memory_collector import MemoryCollector
 from Collectors.disk_collector import DiskCollector
 from Collectors.process_collector import ProcessCollector
 from Collectors.network_collector import NetworkCollector
+from Collectors.auth_log_collector import AuthLogCollector
 from Engine.alert_engine import AlertEngine
 from Utils.logger import get_logger
 from Utils.config import config
@@ -21,7 +22,8 @@ class MonitoringScheduler:
             'memory': MemoryCollector(self.db),
             'disk': DiskCollector(self.db),
             'process': ProcessCollector(self.db),
-            'network': NetworkCollector(self.db)
+            'network': NetworkCollector(self.db),
+            'auth': AuthLogCollector(self.db)
         }
 
         self.alert_engine = AlertEngine(self.db)
@@ -34,8 +36,7 @@ class MonitoringScheduler:
         disk_data = self.collectors['disk'].collect_and_store()
         self.collectors['process'].collect_and_store()
         self.collectors['network'].collect_and_store()
-
-        # Run alert checks
+        self.collectors['auth'].collect_and_store()
         self.alert_engine.run_all_checks(cpu_data, mem_data, disk_data)
         logger.info("--- Collection cycle complete ---")
 

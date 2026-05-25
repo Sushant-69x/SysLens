@@ -61,8 +61,21 @@ CREATE TABLE IF NOT EXISTS alerts (
     resolved INTEGER DEFAULT 0
 );
 
+CREATE TABLE IF NOT EXISTS auth_events (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp DATETIME NOT NULL,
+    event_type TEXT NOT NULL,
+    username TEXT,
+    source_ip TEXT,
+    service TEXT,
+    raw_line TEXT
+);
+
 CREATE INDEX IF NOT EXISTS idx_cpu_timestamp ON cpu_metrics(timestamp);
 CREATE INDEX IF NOT EXISTS idx_mem_timestamp ON memory_metrics(timestamp);
 CREATE INDEX IF NOT EXISTS idx_disk_timestamp ON disk_metrics(timestamp);
 CREATE INDEX IF NOT EXISTS idx_proc_timestamp ON process_snapshots(timestamp);
 CREATE INDEX IF NOT EXISTS idx_alerts_severity ON alerts(severity);
+CREATE INDEX IF NOT EXISTS idx_auth_timestamp ON auth_events(timestamp);
+CREATE INDEX IF NOT EXISTS idx_auth_source_ip ON auth_events(source_ip);
+CREATE INDEX IF NOT EXISTS idx_auth_event_type ON auth_events(event_type);
