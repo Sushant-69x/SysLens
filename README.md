@@ -55,7 +55,7 @@ main.py
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/syslens.git
+git clone https://github.com/Sushant-69x/syslens.git
 cd syslens
 python -m venv venv
 venv\Scripts\activate
