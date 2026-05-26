@@ -5,8 +5,6 @@
 
 A Python-based system monitoring tool that continuously collects CPU, memory, disk, process, and network metrics, stores them in a structured SQLite database, detects anomalies, and visualizes everything through a live dashboard.
 
-> Built as a campus project demonstrating OS internals, database design, Linux log analysis, REST API development, and security monitoring in one coherent system.
-
 ---
 
 ## Architecture
